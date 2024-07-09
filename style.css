@@ -1,5 +1,20 @@
+
+:root {
+    --colorFondo:#E5E5E5;
+    --colorPrimario:#F3F5FC ;
+    --colorSecundario: #0A3871;
+    --colorTerciario:#D8DFE8; 
+    --blanco: #fff;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
-    background-color: #E5E5E5;
+    background-color: var(--colorFondo);
     position: relative;
     width: 1440px;
     height: 1024px;
@@ -32,8 +47,9 @@ body{
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    color: #0A3871;   
-    background: #F3F5FC;
+    color: var(--colorSecundario);   
+    background: var(--blanco);
+    border: none;
 
 }
 .botones{
@@ -78,14 +94,14 @@ width: 328px;
 height: 67px;
 
 /* Dark blue/dark-blue-300 */
-background: #0A3871;
+background: var(--colorSecundario);
 border-radius: 24px;
 
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-color: #D8DFE8;
+color: var(--colorTerciario);
 justify-content: center;
 
 
@@ -99,13 +115,13 @@ justify-content: center;
     gap: 8px;
     width: 328px;
     height: 67px;
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
+    background: var(--colorTerciario);
+    border: 1px solid var(--colorSecundario);
     border-radius: 24px;
     flex: none;
     border: 1;
     flex-grow: 0;
-    color: #0A3871;
+    color: var(--colorSecundario);
     justify-content: center;
 
 }
@@ -115,7 +131,7 @@ justify-content: center;
     height: 944px;
     left: 1000px;
     top: 40px;
-    background: #FFFFFF;
+    background: var(--blanco);
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
     
