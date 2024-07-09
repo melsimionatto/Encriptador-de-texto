@@ -81,28 +81,20 @@ body{
 
 }
 .boton_encriptar{
-/* Button */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
-
-width: 328px;
-height: 67px;
-
-/* Dark blue/dark-blue-300 */
-background: var(--colorSecundario);
-border-radius: 24px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-color: var(--colorTerciario);
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: var(--colorSecundario);
+    border-radius: 24px;
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    color: var(--colorTerciario);
+    justify-content: center;
 
 
 }
@@ -126,15 +118,15 @@ justify-content: center;
 
 }
 .seccion__texto__encriptado{
-    position: absolute;
+    
     width: 400px;
     height: 944px;
-    left: 1000px;
-    top: 40px;
+    margin-left: 1000px;
+    margin-top: 40px;
     background: var(--blanco);
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-    
+    justify-content: center;
     text-align: center;
 }
 .img_muneco{
@@ -146,8 +138,25 @@ justify-content: center;
 
 
 }
-.descripcion_uno{
-  color: #343A40;
+.uno{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    border: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
 
 }
 
@@ -160,13 +169,28 @@ justify-content: center;
     text-align: center;
     width: 336px;
     height: 122px;
-    left: 1032px;
+    margin-left: 1032px;
     margin-top: 619px;
+    font-size: 24px;
+    justify-content: center;
+   
 
 
 
 }
 .dos{
-    
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
     color: #495057;
+    flex: none;
+    border: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 40px;
 }
