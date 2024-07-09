@@ -1,0 +1,159 @@
+body{
+    background-color: #E5E5E5;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+.seccion__campo__de__texto{
+    
+
+}
+.logo__alura{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+
+   
+}
+.campo_de_texto{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;   
+    background: #F3F5FC;
+
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+
+}
+.fotmato_de_texto{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    margin-left: 240px;
+    margin-top: 851px;
+
+
+}
+.boton_encriptar{
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+color: #D8DFE8;
+justify-content: center;
+
+
+}
+.boton_desencriptar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    border: 1;
+    flex-grow: 0;
+    color: #0A3871;
+    justify-content: center;
+
+}
+.seccion__texto__encriptado{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+    text-align: center;
+}
+.img_muneco{
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    margin-top: 283px;
+
+
+
+}
+.descripcion_uno{
+  color: #343A40;
+
+}
+
+.decripcion_dos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    text-align: center;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    margin-top: 619px;
+
+
+
+}
+.dos{
+    
+    color: #495057;
+}
